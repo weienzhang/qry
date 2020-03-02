@@ -3,7 +3,7 @@ package com.zwe.qry.qry.dto;
 public class GithubUser {
     private String name;
     private Long id;
-    private String dio;
+    private String bio;
 
     public String getName() {
         return name;
@@ -21,11 +21,11 @@ public class GithubUser {
         this.id = id;
     }
 
-    public String getDio() {
-        return dio;
+    public String getBio() {
+        return bio;
     }
 
-    public void setDio(String dio) {
-        this.dio = dio;
+    public void setBio(String bio) {
+        this.bio = bio;
     }
 }
